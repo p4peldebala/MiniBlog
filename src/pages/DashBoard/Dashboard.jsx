@@ -1,4 +1,4 @@
-import styles from './DashBoard.module.sass'
+import styles from '../../pages/DashBoard/Dashboard.module.sass'
 import { Link } from 'react-router-dom'
 
 //hooks
