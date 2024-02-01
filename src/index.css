@@ -1,0 +1,122 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(0, 0, 0, 0.87);
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  
+}
+
+
+
+input::placeholder, textarea::placeholder{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color:  rgb(148,0,211);
+}
+
+input::focus, textarea::focus{
+  border: 1px solid rgb(88, 0, 126);
+}
+
+a, nav, button{
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  transition: .4s;
+  font-size: 1em;
+  cursor: pointer;
+
+}
+
+/* form styles */
+
+form{
+  max-width: 40%;
+  margin: 0 auto;
+}
+
+label{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px; 
+}
+
+label span{
+  margin-bottom: 0;
+  font-weight: bold;
+  color:  rgb(88, 0, 126);
+  margin-bottom: 10px;
+}
+
+input, textarea{
+  box-sizing: border-box;
+  border: none;
+  border: 1px solid rgb(88, 0, 126);;
+  padding: .8em;
+  background-color: transparent;
+  color:  rgb(88, 0, 126);
+  
+}
+
+.btn{
+  background-color: rgb(148,0,211);
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 120px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+  transition: background-color 0.5s, color .5s;
+}
+
+.btn.btn-outline{
+  background-color: transparent;
+  border-radius: 0;
+  color: black;
+  border: 1px solid black;
+  padding: 7px 30px;
+}
+
+.btn.btn-outline:hover{
+  background-color: black;
+}
+
+.btn.btn-danger:hover{
+  background-color: #DC3545;
+}
+.btn.btn-edit:hover{
+  background-color: #3bdc35;
+}
+
+.btn.btn-default:hover{
+  background: none;
+  color: blueviolet;
+  margin: 0;
+  border: 1px solid purple;
+}
+
+button[disabled]{
+  background-color: #AAA;
+}
+
+.container .error{
+  color: #721c24;
+  background-color: #f8d7d4;
+  border: 1px solid #f5c6cb;
+  padding: 5px;
+  border-radius: 5px;
+}

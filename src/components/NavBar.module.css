@@ -1,0 +1,129 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Creating box shadow for our navbar */
+    box-shadow: rgba(0, 0, 0, .15) 0px -2px 10px 0px;
+    padding: 15px;       
+    height: 60px;
+}
+
+.navbar a{
+    color: rgb(148,0,211);
+}
+
+/* Brand */
+.brand{
+    font-size: 1.2em;
+}
+
+.brand span{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+/* Navbar list */
+.link_list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.link_list a{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.link_list li a:hover{
+    color: rgb(148,0,211);
+    font-size: 1.1em;
+    
+}
+
+/* Sign In and Sing up */
+
+.register{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.login{
+    border: 1px solid rgb(148,0,211);
+    border-radius: 20px;
+    padding: 5px 16px;
+}
+
+.signUp{
+    background-color: rgb(148,0,211);
+    border-radius: 20px;
+    padding: 6px 18px;
+    
+}
+
+.signUp a{
+    color: white;
+}
+
+.signUp a:hover{
+    color: white !important
+}
+
+
+
+/* Active */
+.active{
+    background-color: rgba(177, 156, 217, .5) ;
+    padding: 10px;
+    color: rgb(148,0,211);
+    border-radius: 20px;
+    transition: background 1s, font-size 1.5s;
+}
+
+.active:hover{
+    color: rgb(148,0,211);
+    font-size: 1.2em;
+    background: none;
+}
+
+
+.logout{
+    background-color: rgb(148,0,211);
+    border-radius: 20px;
+    padding: 6px 10px;
+    transition: background 1s, font-size 1.5s;
+}
+
+.logout:hover{
+    background: none;
+    color: blueviolet;
+    margin: 0;
+}
+
+.logout:hover .exit{
+    color: blueviolet;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+.exit{
+    color: white;
+    margin-left: 0px;
+    transition: color 0.5s;
+}
+
+
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
