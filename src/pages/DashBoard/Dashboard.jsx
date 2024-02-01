@@ -7,7 +7,6 @@ import { useAuthContext } from '../../context/AuthContext';
 import { useFetchDocuments } from '../../hooks/useFetchDocuments'
 import { useDeleteDocument } from '../../hooks/useDeleteDocument';
 
-import React, { useState } from 'react'
 
 const Dashboard = () => {
   const {user} = useAuthContext()
